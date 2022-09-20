@@ -1,0 +1,97 @@
+.gallery {
+  margin-top: 80px;
+  background: url(../img/gallery.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 50px right 100%;
+  min-height: 100vh;
+}
+.gallery-subheader {
+  font-family: "Rounded Mplus 1c";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #56509f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-subheader::after {
+  content: "";
+  display: inline-block;
+  background: #db3050;
+  border-radius: 6px;
+  width: 50px;
+  height: 2px;
+  margin-left: 20px;
+}
+.gallery-subheader::before {
+  content: "";
+  display: inline-block;
+  background: #db3050;
+  border-radius: 6px;
+  width: 50px;
+  height: 2px;
+  margin-right: 20px;
+}
+.gallery-list ul {
+  display: flex;
+  justify-content: center;
+}
+.gallery-list li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.gallery-nav .gallery-name {
+  display: inline-block;
+  background-color: #fff;
+  color: #56509f;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 20px 0 0 5px;
+  padding: 6px 25px 7px 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #56509f;
+  border-radius: 20px;
+}
+.gallery-nav .gallery-name:hover {
+  border: 1px solid #ff6682;
+  color: #ff6682;
+}
+.gallery-name-red {
+  display: inline-block;
+  background-color: #fff;
+  color: #ff6682;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 20px 0 0 5px;
+  padding: 6px 10px 7px 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff6682;
+  border-radius: 20px;
+}
+.gallery-content {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+
+  /* здесь можно использовать flex
+  display: flex;
+  flex-wrap: wrap; 
+   */
+}
+
+.gallery-item:nth-child(2n) {
+  margin-top: 20px;
+}

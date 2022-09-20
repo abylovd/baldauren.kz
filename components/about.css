@@ -1,0 +1,126 @@
+.about {
+  background: url(../img/Frame\ 5.png) 20% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+.post_office {
+  display: flex;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+}
+.email::after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  width: 1.5px;
+  background-color: #ffffff;
+  transition-duration: 0.25s;
+  margin-left: 23px;
+}
+.logo-img {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  margin-top: 16px;
+  border-radius: 20px;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.nav li {
+  list-style-type: none;
+  padding: 15px;
+  flex: 1 0 auto;
+  position: relative;
+  text-align: center;
+}
+.nav li:nth-child(2n) {
+  z-index: 2;
+}
+.nav li:nth-child(2n)::after {
+  content: "";
+  width: 29px;
+  height: 29px;
+  background: inherit;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.nav li:nth-child(2n)::before {
+  content: "";
+  width: 29px;
+  height: 29px;
+  background: inherit;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.aqua {
+  background: aqua;
+}
+.blue {
+  background: #2d9cdb;
+}
+.Orange {
+  background: #ffb443;
+}
+.yellow {
+  background: #f2c94c;
+}
+.violet {
+  background: #bb6bd9;
+}
+.green {
+  background: #27ae60;
+}
+.nav li a {
+  color: #fff;
+}
+.nav li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.text h1 {
+  padding-top: 101px;
+  color: #fff;
+
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 50px;
+}
+.text p {
+  padding-top: 37px;
+  font-weight: 400;
+  font-size: 23px;
+  width: 50%;
+  color: #ffffff;
+}
+.img {
+  position: absolute;
+  top: 46%;
+  right: 100px;
+  z-index: 1;
+}

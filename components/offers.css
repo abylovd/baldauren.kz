@@ -1,0 +1,80 @@
+.offers {
+  margin-top: 100px;
+  display: block;
+  position: relative;
+}
+.offers-content {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.offers-text h1 {
+  font-family: "Rounded Mplus 1c";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #56509f;
+}
+.line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-img {
+  padding: 0 10px;
+}
+.line::after {
+  content: "";
+  display: inline-block;
+  background: #db3050;
+  border-radius: 6px;
+  width: 50px;
+  height: 2px;
+}
+.line::before {
+  content: "";
+  display: inline-block;
+  background: #db3050;
+  border-radius: 6px;
+  width: 50px;
+  height: 2px;
+}
+.offers-text p {
+  margin-top: 24px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #454545;
+}
+.offers-info {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.offers-info-img {
+  margin-right: 10px;
+}
+
+.offers-info-text h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 15px;
+  color: #56509f;
+}
+.offers-info-text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.offers-img img {
+  position: absolute;
+  right: 0;
+}

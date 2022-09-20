@@ -1,0 +1,46 @@
+.card-1 {
+  margin-top: 150px;
+  background: #95cc47;
+  border-radius: 25px;
+  padding: 60px 28px 17px 28px;
+  width: 18rem;
+  position: relative;
+}
+.card-2 {
+  margin-top: 150px;
+  background: #ffaf40;
+  border-radius: 25px;
+  padding: 60px 28px 17px 28px;
+  width: 18rem;
+  position: relative;
+}
+.card-3 {
+  margin-top: 150px;
+  background: #bb6bd9;
+  border-radius: 25px;
+  padding: 60px 28px 17px 28px;
+  width: 18rem;
+  position: relative;
+}
+.card-title {
+  margin-top: 40px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #ffffff;
+}
+.card-img {
+  position: absolute;
+  bottom: 70%;
+  right: 80px;
+}
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
